@@ -75,6 +75,15 @@ S_p(Z) & :=\sup _{\|f\|<1} \mathbb{E}\left(T_p f\right)(Z)-\mathbb{E}\left(T_p f
 \end{equation}
 $$
 
+$$
+\begin{aligned}
+S_p(Z) & :=\sup _{\|f\|<1} \mathbb{E}\left(T_p f\right)(Z)-\mathbb{E}\left(T_p f\right)(X) \\
+& +\nabla \log p(y)^{\top} \nabla_x k(x, y) \\
+& +\nabla \log p(x)^{\top} \nabla_y k(x, y) \\
+& +\left\langle\nabla_x k(x, \cdot), \nabla_y k(\cdot, y)\right\rangle_{\mathcal{F}^d}
+\end{aligned}
+$$
+
 <br>
 
 Finally, to obtain a key result of the article, we need two theorems that we will cite here without proof:
