@@ -67,20 +67,11 @@ Also, using integration by parts it can be seen for $X$ from the target measure 
 <br>
 
 $$
-\begin{equation}
-S_p(Z) & :=\sup _{\|f\|<1} \mathbb{E}\left(T_p f\right)(Z)-\mathbb{E}\left(T_p f\right)(X) \\
-& =\sup _{\|f\|<1} \mathbb{E}\left(T_p f\right)(Z) \\
-& =\sup _{\|f\|<1}\left\langle f, \mathbb{E} \xi_p(Z)\right\rangle_{\mathcal{F}^d} \\
-& =\left\|\mathbb{E} \xi_p(Z)\right\|_{\mathcal{F}^d},
-\end{equation}
-$$
-
-$$
 \begin{aligned}
 S_p(Z) & :=\sup _{\|f\|<1} \mathbb{E}\left(T_p f\right)(Z)-\mathbb{E}\left(T_p f\right)(X) \\
-& +\nabla \log p(y)^{\top} \nabla_x k(x, y) \\
-& +\nabla \log p(x)^{\top} \nabla_y k(x, y) \\
-& +\left\langle\nabla_x k(x, \cdot), \nabla_y k(\cdot, y)\right\rangle_{\mathcal{F}^d}
+& =\sup _{\|f\|<1} \mathbb{E}\left(T_p f\right)(Z) \\
+& =\sup _{\|f\|<1}\left\langle f, \mathbb{E} \xi_p(Z)\right\rangle_{\mathcal{F}}^d \\
+& =\left\|\mathbb{E} \xi_p(Z)\right\|_{\mathcal{F}}^d,
 \end{aligned}
 $$
 
