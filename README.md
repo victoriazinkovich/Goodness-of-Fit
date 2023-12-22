@@ -97,10 +97,7 @@ These expressions also introduce the function $h_p(Z, Z^{\prime})$, which can be
 
 $$
 \begin{aligned}
-h_p(x, y):= & \nabla \log p(x)^{\top} \nabla \log p(y) k(x, y) \\
-& +\nabla \log p(y)^{\top} \nabla_x k(x, y) \\
-& +\nabla \log p(x)^{\top} \nabla_y k(x, y) \\
-& +\left\langle\nabla_x k(x, \cdot), \nabla_y k(\cdot, y)\right\rangle_{\mathcal{F}^d}
+h_p(x, y):= & \nabla \log p(x)^{\top} \nabla \log p(y) k(x, y)
 \end{aligned}
 $$
 
