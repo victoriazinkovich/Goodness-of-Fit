@@ -67,12 +67,12 @@ Also, using integration by parts it can be seen for $X$ from the target measure 
 <br>
 
 $$
-\begin{aligned}
+\begin{equation}
 S_p(Z) & :=\sup _{\|f\|<1} \mathbb{E}\left(T_p f\right)(Z)-\mathbb{E}\left(T_p f\right)(X) \\
 & =\sup _{\|f\|<1} \mathbb{E}\left(T_p f\right)(Z) \\
 & =\sup _{\|f\|<1}\left\langle f, \mathbb{E} \xi_p(Z)\right\rangle_{\mathcal{F}^d} \\
 & =\left\|\mathbb{E} \xi_p(Z)\right\|_{\mathcal{F}^d},
-\end{aligned}
+\end{equation}
 $$
 
 <br>
@@ -82,16 +82,12 @@ Finally, to obtain a key result of the article, we need two theorems that we wil
 <br>
 
 **Theorem 1.**
-<blockquote>
 If $E h_p(Z, Z)<\infty$, then $S_p(Z)^2=$ $\left\|\mathbb{E} \xi_p(Z)\right\|_{\mathcal{F}^d}=\mathbb{E} h_p\left(Z, Z^{\prime}\right)$
-</blockquote>
 
 <br>
 
 **Theorem 2.**
-<blockquote>
 Let $q, p$ be probability measures and $Z \sim q$. if some conditions concerning finiteness of the expectation matrix are fulfilled, then $S_p(Z)=0$ if and only if $p=q$.
-</blockquote>
 
 <br>
 
